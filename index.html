@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+   <!-- script src="https://cdn.tailwindcss.com"></script> --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <span id="nav-father">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./images/Ajay CV.pdf" download>Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contac">Contactus</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+  </span>     
+
+                <ul class="dropdown-menu" id="dc">
+                  <li><a class="dropdown-item active" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Link</a>
+              </li>
+          -->
+            </ul>
+          <!---- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+          -->
+          </div>
+        </div>
+      </nav>
+      <center id="home">
+      <h1>Designer, Frontend Developer & Mentor</h1>
+      <p>I design and code beautifully simple things, and I love what I do.</p>
+      </center>
+      <center>
+        <img src="./images/mf-avatar.svg" alt="mf-avatar" id="mf"><br>
+        <img src="./images/hero-devices.svg" alt="hero" id="hero">
+      </center>
+      <section class="section is-medium is-primary has-text-centered is-long">
+          <div class="container">
+            <div class="columns is-centered">
+              <div class="column is-three-fifths" id="about">
+                <h2 class="title is-spaced is-size-2-desktop is-size-3-mobile">Hi, I’m Ajay. Nice to meet you.</h2>
+                <h4 class="subtitle is-size-5-desktop has-text-weight-normal">Since beginning my journey as a beginer designer 6 monts ago, 
+                  I've done remote work for 1 month(Internship) as a frontend-developer, consulted for startups, and collaborated with talented people to create digital 
+                  booking (like a guest house rooms)for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops.
+                </h4>
+              </div>
+            </div>
+          </div>
+          </section>
+         
+        <section class="Skill-develope" id="Skills">
+          <div class="Designer">
+            <div class="font">
+              <i class="fa-sharp-duotone fa-solid fa-layer-group"></i>
+            </div>
+            <h2>Designer</h2><br>
+            <p>I value simple content structure, clean design <br> patterns, and thoughtful interactions.</p><br>
+            <p id="para-head">Things I enjoy  designing:</p>
+            <p>UI, Web,Logos,</p>
+            <p id="para-head"> Design Tools:</p>
+            <p>Affinity Designer <br>
+              Canava<br>
+              Pen & Paper <br>
+              Powerpoint<br>
+            </p>
+
+          </div>
+          <div class="Frontend-developer">
+            <div class="font">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h2>Frontend Developer</h2> <br>
+            <p>I like to code things from scratch, and enjoy <br> bringing ideas to life in the browser.</p><br>
+            <p id="para-head">Languages I use for developement & design:</p>
+            <p>HTML,CSS,Javascript,ReactJs</p>
+            <p id="para-head">Dev Tools:</p>
+            <p> 
+              Github<br>
+              Bootstrap <br>
+              Tailwind CSS <br> 
+              VS Code
+            </p>
+          </div>
+          <div class="Backend-developer">
+            <div class="font">
+              <i class="fa-sharp-duotone fa-solid fa-database"></i>
+            </div>
+            <h2>Backend-developer(beginer)</h2> <br>
+            <p>I like to code things from scratch, and enjoy <br> bringing ideas to life in the browser.</p><br>
+            <p id="para-head">Languages I use for Database:</p>
+            <p>Mysql,Php</p>
+            <p id="para-head">Dev Tools:</p>
+            <p>
+              Xamp<br>
+              Localhost <br>
+              VS Code
+            </p>
+          </div>
+        </section>
+        <center id="project">
+          <h1>My Recent Work(Project)</h1>
+          <p>Here are a few past design projects I've worked on. Want to see more? <a href="//tejasbhaskar164@gmail.com" target="_blank">Email me.</a></p>
+        </center>
+        <section class="project">
+          <div class="box1">
+            <span>It tech <br> solution</span>
+            <i> Useing html & Css </i>
+          </div>
+          <div class="box2">
+            <span>Clone of pm <br>  internship scheme</span>
+            <i>Using Reactjs</i>
+          </div>
+          <div class="box3">
+            <span>Kingsukh guest <br> house(Redesigning)</span>
+            <i>using html,css & javascript</i>
+          </div>
+        </section>
+  <center>     
+    <div class="chat">
+      <h1>Interested in collaborating with me?</h1>
+      <p>I’m always open to discussing product design work or partnership opportunities.</p>
+     <a href="https://wa.me/918081630785"> <button id="btn"><i class="fa-regular fa-comment"></i>    Start a conversation</button></a>
+    </div>    
+  </center><br><br><br>
+  <center class="testimonial">
+    <h2>Testimonials</h2>
+    <p>People I've worked with have said some nice things...</p><br><br><br>
+    <img src="./images/pascal testimonial.png" alt="pascal" id="pascal" ><br><br>
+    <i>Abhinav was a real pleasure to work with and we look forward to  <br> 
+      working with him again. He’s definitely the kind of designer you can <br>
+       trust with a project from start to finish.”</i><br><br>
+       <b>Das abhinav</b>
+       <p>Creative Lead, Good Kind
+      </p>
+  </center><br><br>
+  <center id="contac">
+       <h2>Let's connect together</h2>
+  </center>
+  <div class="formdaTA">
+    <div class="person">
+        <h3>Contact Info</h3>
+        <h5><i class="fa-solid fa-phone"></i>+918081630785</h5>
+        <h5> <i class="fa-solid fa-location-dot"></i>
+        Beside parichowk,
+        tugalpur,<br> greater-noida,
+         201310
+        </h5>
+        <h5><i class="fa-sharp fa-regular fa-envelope"></i>:tejasbhaskar164@gmail.com</h5>
+      </div>
+      <div class="contactDatata">
+        <form name="submit-to-google-sheet">
+            <h3>Send a Message(click on 1 time send button)</h3><br>
+          <label for="name">Name:</label>
+            <input type="text" placeholder="name"name="Name" required><br><br>
+          <label for="email">Email:</label>  
+            <input type="email" placeholder="email" name="Email" required><br><br>
+          <label for="phone">Phone:</label>
+            <input type="number" placeholder="phone" name="Phone" required><br><br>
+            <textarea spellcheck="true" placeholder="write your messege" required name="Messege"></textarea><br><br>
+            <!-- input type="submit" value="Send" id="msgbtn">  -->
+             <button type="submit" id="msgbtn">Send</button>
+           </form>
+      </div>
+</div>
+    <section class="contact">
+      <div class="a">
+        <h3>Start a project</h3>
+      </div>
+      <div class="b">
+        <p>Interested in working together? We should queue up <br> a time to chat. I’ll buy the coffee</p>
+      </div>
+      <a href="https://wa.me/918081630785"> <button id="btn"><i class="fa-solid fa-handshake"></i>     Let's do this</button></a>
+    </section>
+<footer>
+    <div class="ConTEnt">
+    <p>Living, learning, <br> & leveling up <br> one day at a time.</p>
+  <br>
+</div>
+  <div class="icon">
+    <a href="https://www.linkedin.com/in/%E1%B4%80%E1%B4%8A%E1%B4%80y-a11570234/overlay/about-this-profile/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/ajay8081?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://wa.me/918081630785"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://github.com/tejasbhaskar"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <h2>Handcrafted by @ me 2024</h2>
+    <p>Made with ajay.</p>
+    <div class="top"><a href="#">GO to top</a></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
